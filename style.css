@@ -169,8 +169,8 @@ input:invalid + span::after {
     content: "required";
     color: red;
     position: absolute;
-    top: -60px;
-    right: 0px;
+    top: 0px;
+    left: 0px;
     font-size: 15px;
 }
 
