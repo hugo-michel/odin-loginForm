@@ -157,20 +157,17 @@ label {
 }
 
 /* pseudo validation */
+input:invalid {
+    border: 1px solid red;
+}
 
 input:focus {
 	border-color: #00bef3;
 	box-shadow: 1px 1px 1px 0px rgba(0, 190, 243, 0.85);
 }
 
-input:invalid {
-    border: 1px solid red;
-}
+
 
 input:valid {
-    border: 2px solid #00bef3;
-}
-
-input:invalid:focus {
-    border: none;
+    border: 1px solid #00bef3;
 }
