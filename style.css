@@ -161,6 +161,19 @@ input:invalid {
     border: 1px solid red;
 }
 
+input + span {
+    position: relative;
+}
+
+input:invalid + span::after {
+    content: "required";
+    color: red;
+    position: absolute;
+    top: -60px;
+    right: 0px;
+    font-size: 15px;
+}
+
 input:focus {
 	border-color: #00bef3;
 	box-shadow: 1px 1px 1px 0px rgba(0, 190, 243, 0.85);
