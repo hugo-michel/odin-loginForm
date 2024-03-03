@@ -138,6 +138,15 @@ button {
     margin-left: 30px;
     color: white;
     font-weight: bold;
+	cursor: pointer;
+	border: 1px solid #00bef3;
+
+}
+
+button:hover {
+	color: #00bef3;
+	background-color: white;
+	border: 1px solid #00bef3;
 }
 
 #form-password {
