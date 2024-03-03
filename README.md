@@ -1,5 +1,5 @@
 # odin-loginForm
 
-TODO : 
+Exercice login form de TOP.  
 
-verif si mdp sont =
+champs validé coté client, verification des mdp equivalents, possibilité d'afficher ou de cacher les mdp.
