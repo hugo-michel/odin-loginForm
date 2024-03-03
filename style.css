@@ -205,6 +205,7 @@ label + span {
 }
 
 label + span::after {
+	cursor: pointer;
 	position: absolute;
 	content: "👁️‍🗨️";
 	right: 0px;
