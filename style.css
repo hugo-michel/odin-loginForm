@@ -194,8 +194,19 @@ input:focus {
 	box-shadow: 1px 1px 1px 0px rgba(0, 190, 243, 0.85);
 }
 
-
-
 input:valid {
     border: 1px solid #00bef3;
+}
+
+/* show pwd */
+
+label + span {
+	position: relative;
+}
+
+label + span::after {
+	position: absolute;
+	content: "👁️‍🗨️";
+	right: 0px;
+	top: -20px;
 }
